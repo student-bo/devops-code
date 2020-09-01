@@ -3,7 +3,7 @@ pipeline{
     tools {
        maven 'M2_HOME'
     }
-    enviroment {
+    environment {
       registry = "ntbolan88/devops-pipeline"
       registryCredential = 'DockerID'    
     }
